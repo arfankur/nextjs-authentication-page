@@ -22,6 +22,10 @@ export default function Login() {
         email,
         password,
       });
+      
+      const token = response.data.token;
+      axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+
       console.log("Login successful:", response.data);
       // Handle successful login (e.g., store token, redirect)
     } catch (err) {
