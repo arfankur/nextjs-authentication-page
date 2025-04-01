@@ -36,6 +36,8 @@ export default function Login() {
   };
 
   return (
+    <div>
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
     <Card className="w-96 p-6 mx-auto mt-10 shadow-lg">
       <CardContent>
         <h2 className="text-xl font-semibold text-center mb-4">Login</h2>
@@ -70,5 +72,7 @@ export default function Login() {
         </form>
       </CardContent>
     </Card>
+    </div>
+    </div>
   );
 }
