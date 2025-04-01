@@ -18,7 +18,7 @@ export default function Login() {
     setError("");
     
     try {
-      const response = await axios.post("http://localhos:800/api/login", {
+      const response = await axios.post("http://localhost:8000/api/login", {
         email,
         password,
       });
