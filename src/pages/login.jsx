@@ -12,7 +12,6 @@ export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-const [token, setToken] = useState("");
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
