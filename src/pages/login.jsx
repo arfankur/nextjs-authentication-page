@@ -19,7 +19,7 @@ export default function Login() {
     try {
       const { data } = await axios.post('http://localhost:8000/api/login', { email, password });
       localStorage.setItem('token', data.token);
-      window.location.href = "/user";
+      window.location.href = "/";
   
     } catch (err) {
       setError("Invalid credentials");
