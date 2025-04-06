@@ -1,4 +1,4 @@
-What was i made in this repossitory? <br>
+What was i made in this repository? <br>
 
 - [Login page](https://github.com/arfankur/nextjs-authentication-page/blob/master/src/pages/login.jsx)
 - [User page](https://github.com/arfankur/nextjs-authentication-page/blob/master/src/pages/index.jsx)
