@@ -8,5 +8,7 @@ What was i made in this repository? <br>
 
 Any critics and suggestions are welcome on pull request 🙌 <br>
 
+Thanks for the attention <br>
+
 Regards <br>
 Arfan Kurnianto
